@@ -10,3 +10,7 @@ OK, so this is in its really early stages. Like... "I spent 15 minutes on it aft
 * randomly apply styles
 
 ...whatever it takes to PUNCH IT UP!
+
+### building it
+* http://benalman.com/projects/run-jquery-code-bookmarklet/
+** http://benalman.com/code/test/jquery-run-code-bookmarklet/
