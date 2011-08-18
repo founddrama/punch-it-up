@@ -1,0 +1,19 @@
+{
+  "name": "Punch it Up",
+  "version": "1.0",
+  "description": "Boring website? I knoow. Punch it up!",
+  "background_page": "background.html",
+  "browser_action": {
+    "default_icon": "Planters-Punch-icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery.js"],
+      "css": ["punch.css"]
+    }
+  ],
+  "permissions": [
+  	"tabs", "http://*/*", "https://*/*"
+  ]
+}

@@ -1,0 +1,27 @@
+.grow-pulse {
+	-webkit-animation: growing 1s infinite alternate ease;
+}
+.grow-pulse-fast {
+	-webkit-animation: growing .4s infinite alternate ease;
+}
+.twist-pulse {
+	-webkit-animation: twisting 1.2s infinite alternate ease;
+}
+.twist-pulse-reverse {
+	-webkit-animation: twisting-reverse 1.3s infinite alternate ease;
+}
+
+@-webkit-keyframes growing {
+	0%{-webkit-transform: scale(0.7, 0.7);}
+	100%{-webkit-transform: scale(2.0, 2.0);}
+}
+
+@-webkit-keyframes twisting {
+	0%{-webkit-transform: rotate(-9deg);}
+	100%{-webkit-transform: rotate(40deg);}
+}
+
+@-webkit-keyframes twisting-reverse {
+	0%{-webkit-transform: rotate(15deg);}
+	100%{-webkit-transform: rotate(-40deg);}
+}
